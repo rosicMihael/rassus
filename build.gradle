@@ -1,0 +1,50 @@
+plugins {
+    id 'java'
+    id 'eclipse'
+}
+
+group 'hr.fer.rassus'
+version '1'
+
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+
+dependencies {
+}
+
+//################ RUN ################
+task runExampleTcpClient(type: JavaExec) {
+    group = "exec"
+    description = "Run TCP client"
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = "hr.fer.tel.rassus.FlexibleTCPClient"
+    standardInput = System.in
+
+}
+
+task runExampleTcpServer(type: JavaExec) {
+    group = "exec"
+    description = "Run TCP server"
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = "hr.fer.tel.rassus.MultithreadedServer"
+}
+
+task runExampleUdpClient(type: JavaExec) {
+    group = "exec"
+    description = "Run UDP client"
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = "hr.fer.tel.rassus.UDPClient"
+    standardInput = System.in
+
+}
+
+task runExampleUdpServer(type: JavaExec) {
+    group = "exec"
+    description = "Run UDP server"
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = "hr.fer.tel.rassus.UDPServer"
+}
