@@ -13,7 +13,7 @@ import java.net.InetAddress;
 
 /**
  *
- * @author Ivana Podnar Žarko <ivana.podnar@fer.hr>
+ * @author Ivana Podnar Å¾arko <ivana.podnar@fer.hr>
  */
 public class UDPClient {
 	final static int PORT = 10001; // server port

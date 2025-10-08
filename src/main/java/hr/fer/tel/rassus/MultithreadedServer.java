@@ -16,7 +16,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 /**
 *
-* @author Ivana Podnar Žarko <ivana.podnar@fer.hr>
+* @author Ivana Podnar Å¾arko <ivana.podnar@fer.hr>
 */
 public class MultithreadedServer implements ServerIf {
 
