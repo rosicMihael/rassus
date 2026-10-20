@@ -68,7 +68,7 @@ task runExampleClient(type: JavaExec) {
     group = "exec"
     description = "Run client with JavaExecTask"
     classpath = sourceSets.main.runtimeClasspath
-    mainClass = "hr.fer.tel.rassus.examples.SimpleUnaryRPCClient"
+    mainClass = "hr.fer.tel.rassus.examples.SensorRPCClient"
     standardInput = System.in
 
 }
@@ -77,5 +77,5 @@ task runExampleServer(type: JavaExec) {
     group = "exec"
     description = "Run client with JavaExecTask"
     classpath = sourceSets.main.runtimeClasspath
-    mainClass = "hr.fer.tel.rassus.examples.SimpleUnaryRPCServer"
+    mainClass = "hr.fer.tel.rassus.examples.SensorRPCServer"
 }

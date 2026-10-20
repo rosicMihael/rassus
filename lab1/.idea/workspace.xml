@@ -4,57 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="493974a8-d647-4847-97ac-59896ba14a05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../grpc-example-main/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../grpc-example-main/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../grpc-example-main/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../grpc-example-main/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../grpc-example-main/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../grpc-example-main/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../grpc-example-main/src/main/java/hr/fer/tel/rassus/examples/SimpleUnaryRPCClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../grpc-example-main/src/main/java/hr/fer/tel/rassus/examples/SimpleUnaryRPCServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../grpc-example-main/src/main/java/hr/fer/tel/rassus/examples/UppercaseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../grpc-example-main/src/main/proto/uppercase.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../socketapi-main/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../socketapi-main/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../socketapi-main/client.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../socketapi-main/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../socketapi-main/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../socketapi-main/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../socketapi-main/server.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../socketapi-main/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../socketapi-main/src/main/java/hr/fer/tel/rassus/FlexibleTCPClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../socketapi-main/src/main/java/hr/fer/tel/rassus/MultithreadedServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../socketapi-main/src/main/java/hr/fer/tel/rassus/ServerIf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../socketapi-main/src/main/java/hr/fer/tel/rassus/TCPClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../socketapi-main/src/main/java/hr/fer/tel/rassus/TCPServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../socketapi-main/src/main/java/hr/fer/tel/rassus/UDPClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../socketapi-main/src/main/java/hr/fer/tel/rassus/UDPServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../socketapi-main/src/main/java/hr/fer/tel/rassus/Worker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/hr/fer/tel/rassus/FlexibleTCPClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/hr/fer/tel/rassus/MultithreadedServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/hr/fer/tel/rassus/ServerIf.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/hr/fer/tel/rassus/TCPClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/hr/fer/tel/rassus/TCPServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/hr/fer/tel/rassus/UDPClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/hr/fer/tel/rassus/UDPServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/hr/fer/tel/rassus/Worker.java" beforeDir="false" />
-    </list>
+    <list default="true" id="493974a8-d647-4847-97ac-59896ba14a05" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "hr.fer.tel.rassus.examples";
+
+package hr.fer.tel.rassus;
+
+service Sensor {
+  rpc GetReadings (ReadingsRequest) returns (ReadingsResponse);
+}
+
+message ReadingsRequest {}
+
+message ReadingsResponse {
+  double temperature = 1;
+  double pressure = 2;
+  double humidity = 3;
+  optional double co = 4;
+  optional double no2 = 5;
+  optional double so2 = 6;
+}

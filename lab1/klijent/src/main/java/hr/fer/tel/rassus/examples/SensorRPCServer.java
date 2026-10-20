@@ -10,11 +10,11 @@ import java.util.logging.Logger;
 /**
  * The type Simple unary rpc server.
  */
-public class SimpleUnaryRPCServer {
-  private static final Logger logger = Logger.getLogger(SimpleUnaryRPCServer.class.getName());
+public class SensorRPCServer {
+  private static final Logger logger = Logger.getLogger(SensorRPCServer.class.getName());
 
   private Server server;
-  private final UppercaseService service;
+  private final SensorService service;
   private final int port;
 
   /**
@@ -23,7 +23,7 @@ public class SimpleUnaryRPCServer {
    * @param service the service
    * @param port    the port
    */
-  public SimpleUnaryRPCServer(UppercaseService service, int port) {
+  public SensorRPCServer(SensorService service, int port) {
     this.service = service;
     this.port = port;
   }
@@ -45,7 +45,7 @@ public class SimpleUnaryRPCServer {
     Runtime.getRuntime().addShutdownHook(new Thread(() -> {
       System.err.println("Shutting down gRPC server since JVM is shutting down");
       try {
-        SimpleUnaryRPCServer.this.stop();
+        SensorRPCServer.this.stop();
       } catch (InterruptedException e) {
         e.printStackTrace(System.err);
       }
@@ -83,7 +83,7 @@ public class SimpleUnaryRPCServer {
    * @throws InterruptedException the interrupted exception
    */
   public static void main(String[] args) throws IOException, InterruptedException {
-    final SimpleUnaryRPCServer server = new SimpleUnaryRPCServer(new UppercaseService(), 3000);
+    final SensorRPCServer server = new SensorRPCServer(new SensorService(new ReadingsProvider()), 3000);
     server.start();
     server.blockUntilShutdown();
   }
