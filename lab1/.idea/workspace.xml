@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="493974a8-d647-4847-97ac-59896ba14a05" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../grpc-example-main/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc-example-main/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc-example-main/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc-example-main/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc-example-main/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc-example-main/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc-example-main/src/main/java/hr/fer/tel/rassus/examples/SimpleUnaryRPCClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc-example-main/src/main/java/hr/fer/tel/rassus/examples/SimpleUnaryRPCServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc-example-main/src/main/java/hr/fer/tel/rassus/examples/UppercaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc-example-main/src/main/proto/uppercase.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../socketapi-main/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../socketapi-main/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../socketapi-main/client.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../socketapi-main/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../socketapi-main/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../socketapi-main/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../socketapi-main/server.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../socketapi-main/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../socketapi-main/src/main/java/hr/fer/tel/rassus/FlexibleTCPClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../socketapi-main/src/main/java/hr/fer/tel/rassus/MultithreadedServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../socketapi-main/src/main/java/hr/fer/tel/rassus/ServerIf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../socketapi-main/src/main/java/hr/fer/tel/rassus/TCPClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../socketapi-main/src/main/java/hr/fer/tel/rassus/TCPServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../socketapi-main/src/main/java/hr/fer/tel/rassus/UDPClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../socketapi-main/src/main/java/hr/fer/tel/rassus/UDPServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../socketapi-main/src/main/java/hr/fer/tel/rassus/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/hr/fer/tel/rassus/FlexibleTCPClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/hr/fer/tel/rassus/MultithreadedServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/hr/fer/tel/rassus/ServerIf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/hr/fer/tel/rassus/TCPClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/hr/fer/tel/rassus/TCPServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/hr/fer/tel/rassus/UDPClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/hr/fer/tel/rassus/UDPServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/hr/fer/tel/rassus/Worker.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_C:/rassus/1dz-server-template" value="3KxVxJysTLQ07G68de2gu9XP9t1" />
+    </persistenceIdMap>
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="1dz-server-template" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="1dz-server-template" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;rosicMihael&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/rosicMihael/rassus.git&quot;,
+    &quot;accountId&quot;: &quot;ce7ffe1d-b4b6-4a8d-8f9c-7af5cc4ff6b0&quot;
+  }
+}</component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.5144614786975164" />
+      <entry key="MS500" value="3.549007623764405" />
+      <entry key="S2" value="9.773002941718575" />
+      <entry key="S5" value="23.079202431091087" />
+      <entry key="S10" value="38.32639191109567" />
+      <entry key="S30" value="60.93311396871397" />
+      <entry key="S60" value="70.4530374422286" />
+      <entry key="M2" value="76.88574734697892" />
+      <entry key="M5" value="97.59331170880195" />
+      <entry key="M10" value="136.4571890703765" />
+      <entry key="M15" value="162.83137238093062" />
+      <entry key="M30" value="201.6541069089201" />
+      <entry key="H1" value="227.52917532581083" />
+      <entry key="H2" value="242.49366205783588" />
+      <entry key="H4" value="250.54436044924162" />
+      <entry key="D1" value="257.5617386230956" />
+      <entry key="W1" value="258.7938125836018" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.4541705257305793" />
+      <entry key="MS500" value="3.4964878129286783" />
+      <entry key="S2" value="9.742531334772814" />
+      <entry key="S5" value="23.055176398062546" />
+      <entry key="S10" value="38.30679890968378" />
+      <entry key="S30" value="60.92208056511519" />
+      <entry key="S60" value="70.4464158426583" />
+      <entry key="M2" value="76.88168556217323" />
+      <entry key="M5" value="97.58869609689845" />
+      <entry key="M10" value="136.45210202286594" />
+      <entry key="M15" value="162.82678383182332" />
+      <entry key="M30" value="201.65095910564096" />
+      <entry key="H1" value="227.52732375526574" />
+      <entry key="H2" value="242.49265697648664" />
+      <entry key="H4" value="250.54383671353415" />
+      <entry key="D1" value="257.56164826677406" />
+      <entry key="W1" value="258.7937995987886" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3Kgn6np8l4elekc4wwA6cdK62TD" />
+  <component name="ProjectSessionTemplates">
+    <option name="panelTemplate">
+      <template>
+        <option name="modeId" value="Agent" />
+        <option name="model">
+          <model>
+            <option name="modelType" value="builtin_id" />
+            <option name="modelValue" value="auto" />
+          </model>
+        </option>
+        <option name="targetType" value="BACKGROUND" />
+        <option name="worktreeMode" value="WORKSPACE" />
+      </template>
+    </option>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.1dz-server-template [build].executor": "Run",
+    "Gradle.Build 1dz-server-template.executor": "Run",
+    "Gradle.C:/rassus/1dz-server-template/build.gradle.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.Application.executor": "Run",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "copilot.chat.legacySessionMetadata.migrated": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/rassus/lab1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\rassus\1dz-server-template\lab1\klijent" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.1dz-server-template [build]">
+    <configuration name="1dz-server-template [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="C:/rassus/1dz-server-template/build.gradle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/build.gradle" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+      <module name="1dz-server-template.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="hr.fer.tel.rassus.server.Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hr.fer.tel.rassus.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.1dz-server-template [build]" />
+        <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="Gradle.C:/rassus/1dz-server-template/build.gradle" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10968.63" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10968.63" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="493974a8-d647-4847-97ac-59896ba14a05" name="Changes" comment="" />
+      <created>1791987905945</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1791987905945</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="Makefile" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
