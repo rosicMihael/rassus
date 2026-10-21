@@ -37,9 +37,8 @@ public class ReadingController {
         reading.setSensor(sensor);
         Reading saved = readingRepository.save(reading);
 
-        return ResponseEntity.created(
-                URI.create("/sensors/" + sensorId + "/readings/" + saved.getId())
-        ).build();
+        URI location = URI.create("/sensors/" + sensorId + "/readings/" + saved.getId());
+        return ResponseEntity.created(location).build();
     }
 
     @GetMapping

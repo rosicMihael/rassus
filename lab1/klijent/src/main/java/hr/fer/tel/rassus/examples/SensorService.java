@@ -3,9 +3,6 @@ package hr.fer.tel.rassus.examples;
 import io.grpc.stub.StreamObserver;
 import java.util.logging.Logger;
 
-/**
- * The type Uppercase service.
- */
 public class SensorService extends SensorGrpc.SensorImplBase {
   private static final Logger logger = Logger.getLogger(SensorService.class.getName());
   private final ReadingsProvider readingsProvider;
@@ -16,31 +13,53 @@ public class SensorService extends SensorGrpc.SensorImplBase {
 
   @Override
   public void getReadings(
-      ReadingsRequest request, StreamObserver<ReadingsResponse> responseObserver
-  ) {
-    logger.info("Got a new readings request");
+          ReadingsRequest request,
+          StreamObserver<ReadingsResponse> responseObserver) {
 
-    // Create response
-    SensorData readings = readingsProvider.getCurrentReadings();
+    logger.info("Dobio sam novi zahtjev za ocitanja od susjeda");
 
-    logger.info("SO2: " + readings.getSo2());
+    try {
+      SensorData readings = readingsProvider.getCurrentReadings();
 
-    ReadingsResponse response = ReadingsResponse.newBuilder()
-            .setTemperature(readings.getTemperature())
-            .setPressure(readings.getPressure())
-            .setHumidity(readings.getHumidity())
-            .setCo(readings.getCo())
-            .setNo2(readings.getNo2())
-            .setSo2(readings.getSo2())
-            .build();
+      ReadingsResponse.Builder builder = ReadingsResponse.newBuilder();
 
-    // Send response
-    responseObserver.onNext(
-        response
-    );
+      if (readings.getTemperature() != null) {
+        builder.setTemperature(readings.getTemperature());
+      }
 
-    logger.info("Responding with: " + response.getTemperature());
-    // Send a notification of successful stream completion.
-    responseObserver.onCompleted();
+      if (readings.getPressure() != null) {
+        builder.setPressure(readings.getPressure());
+      }
+
+      if (readings.getHumidity() != null) {
+        builder.setHumidity(readings.getHumidity());
+      }
+
+      if (readings.getCo() != null) {
+        builder.setCo(readings.getCo());
+      }
+
+      if (readings.getNo2() != null) {
+        builder.setNo2(readings.getNo2());
+      }
+
+      if (readings.getSo2() != null) {
+        builder.setSo2(readings.getSo2());
+      }
+
+      ReadingsResponse response = builder.build();
+
+      logger.info("Saljem ocitanja susjedu.");
+      responseObserver.onNext(response);
+      responseObserver.onCompleted();
+    } catch (Exception e) {
+      logger.severe("Greska pri obradi gRPC zahtjeva: " + e.getMessage());
+      responseObserver.onError(
+              io.grpc.Status.INTERNAL
+                      .withDescription("Greska pri dohvaćanju očitanja")
+                      .withCause(e)
+                      .asRuntimeException()
+      );
+    }
   }
 }

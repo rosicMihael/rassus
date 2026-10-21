@@ -46,11 +46,14 @@ public class SensorRPCClient {
   /**
    * Request readings.
    */
-  public void requestReadings() {
+  public ReadingsResponse requestReadings() {
     ReadingsResponse response = sensorBlockingStub.getReadings(
             ReadingsRequest.newBuilder().build()
     );
-    logger.info("Received response: " + response);
+
+    logger.info("Dobivena ocitanja: " + response);
+
+    return response;
   }
 
   /**
@@ -62,7 +65,7 @@ public class SensorRPCClient {
   public static void main(String[] args) throws InterruptedException {
     SensorRPCClient client = new SensorRPCClient("127.0.0.1", 3000);
 
-    client.requestReadings();
+    ReadingsResponse response = client.requestReadings();
 
     client.stop();
   }

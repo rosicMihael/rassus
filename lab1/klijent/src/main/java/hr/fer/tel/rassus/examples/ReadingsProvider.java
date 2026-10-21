@@ -22,7 +22,7 @@ public class ReadingsProvider {
                 .getResourceAsStream("readings");
 
         if (input == null) {
-            throw new IOException("Nije pronađena datoteka readings");
+            throw new IOException("Nije pronadena datoteka readings");
         }
 
         List<SensorData> result = new ArrayList<>();
@@ -56,14 +56,18 @@ public class ReadingsProvider {
         }
 
         if (result.isEmpty()) {
-            throw new IOException("CSV ne sadrži mjerenja.");
+            throw new IOException("CSV ne sadrzi mjerenja.");
         }
 
         return result;
     }
 
-    private double parseValue(String value) {
-        return value.isBlank() ? null : Double.parseDouble(value);
+    private Double parseValue(String value) {
+        if (value == null || value.isBlank()) {
+            return null;
+        }
+
+        return Double.valueOf(value.trim());
     }
 
     public SensorData getCurrentReadings() {
