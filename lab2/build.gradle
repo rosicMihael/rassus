@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group = 'hr.fer.tel.rassus'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Kafka Producer i Consumer API
+    implementation 'org.apache.kafka:kafka-clients:4.4.0'
+
+    // Pomoćne knjižnice za obradu CSV i JSON podataka
+    implementation 'org.apache.commons:commons-csv:1.14.1'
+    implementation 'org.json:json:20260814'
+}
